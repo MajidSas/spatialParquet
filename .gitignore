@@ -1,0 +1,7 @@
+*.iml
+*.jar
+target
+*.parquet
+*.crc
+*.DS_Store
+.idea

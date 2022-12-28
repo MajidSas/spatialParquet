@@ -20,7 +20,7 @@ This package contains a reader/writer implementation of the GeoParquet structure
 To use it with FP-Delta encoding, must used a modified version of Parquet.
 This is done as follows:
 - Change the dependency version of `org.apache.parquet` from `1.12.2` to `1.13.0-SNAPSHOTpom.xml`
-- Go to the folder `parquet-mr` and run `mvn install`
+- Go to the folder [`parquet-mr`](https://github.com/MajidSas/parquet-mr/) and follow the build instructions.
 - Build Spatial Parquet again and use it similar to the `Main` file.
 
 This is currently required because Parquet doesn't provide the option to set a custom encoding. The current implementation of the encoding is experimental and can see some performance improvement in terms of read/write time and providing more options for encoding to provide more flexibility.
